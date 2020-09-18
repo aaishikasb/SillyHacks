@@ -1,13 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    height: 100%;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  height: 100%;
+  overflow: hidden;
+  line-height: 1.65;
 }
 
 .undark {
@@ -24,7 +26,6 @@ div {
 }
 
 .my-navbar {
-  
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -56,7 +57,7 @@ div {
 }
 
 .cent {
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -76,7 +77,14 @@ div {
   font-size: 1.5em;
   transition: 0.3s;
   border: 4px solid #008000;
-  border-image-source: linear-gradient(to right, #016062 0%, #4a5e8c 44%, #4a5e8c 49%, #4a5e8c 57%, #744a9e 100%);
+  border-image-source: linear-gradient(
+    to right,
+    #016062 0%,
+    #4a5e8c 44%,
+    #4a5e8c 49%,
+    #4a5e8c 57%,
+    #744a9e 100%
+  );
   border-image-slice: 4;
   overflow: hidden;
   margin: 0.5em;
@@ -93,11 +101,18 @@ div {
   color: #fff;
   position: absolute;
   transition: 0.3s;
-  content: '';
+  content: "";
   width: 0;
   bottom: -1px;
   height: 3px;
-  background: linear-gradient(to right, #016062 0%, #4a5e8c 44%, #4a5e8c 49%, #4a5e8c 57%, #744a9e 100%);
+  background: linear-gradient(
+    to right,
+    #016062 0%,
+    #4a5e8c 44%,
+    #4a5e8c 49%,
+    #4a5e8c 57%,
+    #744a9e 100%
+  );
   height: 120%;
   left: -10%;
   transform: skewX(15deg);
@@ -119,7 +134,14 @@ div {
   font-size: 1.5em;
   transition: 0.3s;
   border: 4px solid #008000;
-  border-image-source: linear-gradient(to right, #E85B33 0%, #E76442 44%, #E97051 49%, #F5A362 57%, #E9C469 100%);
+  border-image-source: linear-gradient(
+    to right,
+    #e85b33 0%,
+    #e76442 44%,
+    #e97051 49%,
+    #f5a362 57%,
+    #e9c469 100%
+  );
   border-image-slice: 4;
   overflow: hidden;
 }
@@ -135,11 +157,18 @@ div {
   color: #fff;
   position: absolute;
   transition: 0.3s;
-  content: '';
+  content: "";
   width: 0;
   bottom: -1px;
   height: 3px;
-  background: linear-gradient(to right, #E85B33 0%, #E76442 44%, #E97051 49%, #F5A362 57%, #E9C469 100%);
+  background: linear-gradient(
+    to right,
+    #e85b33 0%,
+    #e76442 44%,
+    #e97051 49%,
+    #f5a362 57%,
+    #e9c469 100%
+  );
   height: 120%;
   left: -10%;
   transform: skewX(15deg);
@@ -168,7 +197,14 @@ div {
   font-size: 1.5em;
   transition: 0.3s;
   border: 4px solid #008000;
-  border-image-source: linear-gradient(to right, #000000 0%, #333333 44%, #666666 49%, #999999 57%, #CCCCCC 100%);
+  border-image-source: linear-gradient(
+    to right,
+    #000000 0%,
+    #333333 44%,
+    #666666 49%,
+    #999999 57%,
+    #cccccc 100%
+  );
   border-image-slice: 4;
   overflow: hidden;
 }
@@ -184,11 +220,18 @@ div {
   color: #fff;
   position: absolute;
   transition: 0.3s;
-  content: '';
+  content: "";
   width: 0;
   bottom: -1px;
   height: 3px;
-  background: linear-gradient(to right, #000000 0%, #333333 44%, #666666 49%, #999999 57%, #CCCCCC 100%);
+  background: linear-gradient(
+    to right,
+    #000000 0%,
+    #333333 44%,
+    #666666 49%,
+    #999999 57%,
+    #cccccc 100%
+  );
   height: 120%;
   left: -10%;
   transform: skewX(15deg);
