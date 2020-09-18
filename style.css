@@ -6,6 +6,16 @@ html {
 
 body {
     font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+body.darkmode {
+  background: #212121;
+  color: #F0F0F0;
+}
+
+div {
+  background-color: transparent !important;
 }
 
 .my-navbar {
@@ -134,4 +144,48 @@ body {
 .emoji {
   margin: 0.5em 0;
   font-size: 7em;
+}
+
+/* Dark Mode */
+
+.button-dark {
+  padding: 0.5em 2.5em;
+  margin: 0.5em;
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  box-sizing: border-box;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-size: 1.5em;
+  transition: 0.3s;
+  border: 4px solid #008000;
+  border-image-source: linear-gradient(to right, #000000 0%, #333333 44%, #666666 49%, #999999 57%, #CCCCCC 100%);
+  border-image-slice: 4;
+  overflow: hidden;
+}
+.button-dark:hover {
+  color: #fff;
+}
+.button-dark:hover:after {
+  width: 120%;
+  color: #fff;
+}
+.button-dark:after {
+  content: "";
+  color: #fff;
+  position: absolute;
+  transition: 0.3s;
+  content: '';
+  width: 0;
+  bottom: -1px;
+  height: 3px;
+  background: linear-gradient(to right, #000000 0%, #333333 44%, #666666 49%, #999999 57%, #CCCCCC 100%);
+  height: 120%;
+  left: -10%;
+  transform: skewX(15deg);
+  z-index: -1;
 }

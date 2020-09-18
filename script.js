@@ -24,3 +24,9 @@ function generator() {
     element.appendChild(document.createTextNode(name));
     document.getElementById("placeholder").appendChild(element);
     }
+
+// Dark Mode
+function darkMode() {
+    var element = document.body;
+    element.classList.toggle("darkmode");
+  }
