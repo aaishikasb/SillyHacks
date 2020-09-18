@@ -29,4 +29,6 @@ function generator() {
 function darkMode() {
     var element = document.body;
     element.classList.toggle("darkmode");
+    var element = document.getElementById("placeholder");
+    element.classList.toggle("undark");
   }
