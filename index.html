@@ -21,7 +21,7 @@
     <script src="script.js"></script>
 </head>
 
-<body>
+<body onload="generator()">
     <div class="w-100">
         <nav class="navbar my-navbar navbar-expand-lg navbar-light bg-white">
             <div class="container">
@@ -49,8 +49,11 @@
                         <h1>Try new emoji</h1> <br />
                     </div>
                     <div class="col-md-11 cent" data-aos="fade-in" data-aos-duration="1000">
+                        <div id="placeholder" class="emoji"></div>
+                    </div>
+                    <div class="col-md-11 cent" data-aos="fade-in" data-aos-duration="1000">
                         <a class="button" href="#" onclick="copyToClipboard('#p1')"> I like </a>
-                        <a class="button2" href="#"> I hate </a>
+                        <a class="button2" href="#" onclick="generator()"> I hate </a>
                     </div>
 
                 </div>

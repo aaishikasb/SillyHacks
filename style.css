@@ -130,3 +130,8 @@ body {
   transform: skewX(15deg);
   z-index: -1;
 }
+
+.emoji {
+  margin: 2em 0;
+  font-size: 3em;
+}
