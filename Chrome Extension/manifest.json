@@ -11,5 +11,10 @@
     "browser_action": {
         "default_icon": "icon16.png",
         "default_popup": "popup.html"
-    }
+    },
+    "content_scripts": [
+        {
+        "css": ["popup.css"],
+        "js" : ["popup.js"]
+        }]
 }

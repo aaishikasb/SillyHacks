@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="popup.css">
 </head>
 
-<body style="width: 500px; height: 400px; padding: 1em;" onload="generator()">
+<body style="width: 450px; height: 300px; padding: 1em;">
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
-    <h1 class="display-4">GiveMy<i>Emoji</i><small class="text-muted">1.0.0</small></h1>
+    <h1 class="display-4">GiveMy<i>Emoji</i> <small class="text-muted">1.0.0</small></h1>
 
     <!--Emoji-->
     <div id="placeholder" class="emoji"></div>
@@ -22,8 +22,8 @@
         <a class="button" tabindex="0" href="#" onclick="copyToClipboard('#placeholder')" role="button"
             data-toggle="popover" data-placement="left" data-trigger="focus" data-content="Copied!" id="example"> I like
         </a>
-        <a class="button2" href="#" onclick="generator()"> I hate </a>
-        <button id="changeColor"></button>
+        <a class="button2" href="#" id="hate"> I hate </a>
+        <a class="button-dark" href="#" id="dark"> DARK MODE </a>
     </div>
 
     <!--Scripts-->
