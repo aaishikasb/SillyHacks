@@ -7,6 +7,9 @@ document.getElementById("hate").addEventListener("click", generator);
 // Dark Mode Trigger
 document.getElementById("dark").addEventListener("click", darkMode);
 
+// Copy Trigger
+document.getElementById("example").onclick = function() {copyToClipboard('#placeholder')};
+
 // Copy Function
 function copyToClipboard(element) {
     var $temp = $("<input>");
