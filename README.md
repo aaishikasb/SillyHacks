@@ -36,10 +36,10 @@ Often we encounter situations where we are speechless, why not use **emojis** th
 ### How
 With a super simple **User Interface** for Boomers and Babies, in both the website and the extension you have two buttons available with a Dataset of hundreds of emojis. When you click on `I LIKE`, the emoji on the screen is automatically copied, ready to spice up your bland conversations and if you click on `I HATE`, a new emoji is spinned up in no time! **Magic!**
   
-![Landing Page](repository-assets/1.png)
-![Guide](repository-assets/2.png)
-![Extension](repository-assets/3.png)
-![Copy](repository-assets/4.png)
+![Website Light](repository-assets/1.png)
+![Website Dark](repository-assets/2.png)
+![Extension Light](repository-assets/3.png)
+![Extension Dark](repository-assets/4.png)
 
 ## Installation and Execution
 
@@ -58,6 +58,7 @@ With a super simple **User Interface** for Boomers and Babies, in both the websi
 ## Timeline ⏰
 
 - Sept 18: Research and Initial Documentation, Commencement of Development
+- Sept 19: Development of Website and Chrome Extension Finished
 
 ## Technology Principles Implemented 💡
 
