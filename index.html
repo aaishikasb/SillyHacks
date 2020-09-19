@@ -59,10 +59,13 @@
                             <div id="placeholder" class="emoji"></div>
                         </div>
                         <div class="col-md-12 cent" data-aos="fade-in" data-aos-duration="1000">
-                            <a class="button" tabindex="0" href="#" onclick="copyToClipboard('#placeholder')"
-                                role="button" data-toggle="popover" data-placement="left" data-trigger="focus"
-                                data-content="Copied!" id="example"> I like </a>
-                            <a class="button2" href="#" onclick="generator()"> I hate </a>
+                            <div class="row cent">
+                                <a class="button" tabindex="0" href="#"
+                                        onclick="copyToClipboard('#placeholder')" role="button" data-toggle="popover"
+                                        data-placement="left" data-trigger="focus" data-content="Copied!" id="example">
+                                        I like </a>
+                                <a class="button2" href="#" onclick="generator()"> I hate </a>
+                            </div>
                         </div>
                         <div class="col-md-12 cent" data-aos="fade-in" data-aos-duration="1000">
                             <a class="button-dark" href="#" onclick="darkMode()"> DARK MODE </a>
@@ -72,7 +75,7 @@
             </div>
         </div>
         <!--Footer-->
-        <nav class="navbar navbar-dark bg-dark" style="position: fixed; bottom: 0; left: 0; width: 100%;">
+        <nav class="navbar navbar-dark bg-dark" style="position: fixed !important; bottom: 0; left: 0; width: 100%;">
             <div class="container d-block mx-auto">
             </div>
         </nav>
