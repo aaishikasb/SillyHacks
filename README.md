@@ -22,6 +22,8 @@ Official Entry of Team codeBlooded, from SRM Institute of Science and Technology
 ## Background 📖
 
 [![YouTube](https://img.youtube.com/vi/R4qiiiLgE0U/0.jpg)](https://www.youtube.com/watch?v=R4qiiiLgE0U)
+
+
 Are you confused, irritated, anxious or sad when you don't find an emoji for those *bland* conversations? We are too, and that is why we came up with GiveMy*Emoji*! The **Silliest** Hack you can think about but then at the same time, pretty **useful**! Now hover over to our Website or Chrome Extension to shuffle between hundreds of emojis to find the right one to spice up your chats! ** wink wink ** We also have a smol surprise so do watch the video!
 
 **Give life to your boring conversations!**
