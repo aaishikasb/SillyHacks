@@ -422,3 +422,8 @@ div {
     z-index: -1;
   }
 }
+
+.rev {
+  display: flex;
+flex-direction: row-reverse;
+}
